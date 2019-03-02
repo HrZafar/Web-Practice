@@ -1,0 +1,25 @@
+body{
+    background: url("coffee-171653_1920.jpg") no-repeat center center fixed;
+    background-size: cover; 
+}
+.text{
+    color: rgb(255, 201, 136);
+    margin-top: 15%;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Coiny', cursive;
+}
+.img{
+    height: 200px;
+    width: 300px;
+}
+.mini_box{
+    color: white;
+    background: lightblue;
+    border: 2px solid black;
+}
+.big_box{
+    color: white;
+    background: black;
+    border: 2px solid white;
+}

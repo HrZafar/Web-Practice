@@ -1,0 +1,65 @@
+bootstrap
+
+margin:
+    margin-top === mt-[0-5] 
+        example : mt-0 , mt-1 , mt-2, --- mt-5
+
+    margin-bottom === mb-[0-5]
+
+    margin-left  === ml-[0-5]
+
+    margin-right  === mr-[0-5]
+
+    margin-top + margin-bottom === my-[0-5]
+
+    margin-left + margin-right === mx-[0-5]
+
+
+padding:
+    padding-top === pt-[0-5] 
+        example : pt-0 , pt-1 , pt-2,  pt-5
+
+    padding-bottom === mb-[0-5]
+
+    margin-left  === ml-[0-5]
+
+    margin-right  === mr-[0-5]
+
+    margin-top + margin-bottom === my-[0-5]
+
+    margin-left + margin-right === mx-[0-5]
+
+
+bootstrap columns:
+    extra small : xs
+    small : sm
+    medium : md
+    large : lg
+    extra large : xl
+
+
+basic strucure
+
+    div class = row
+        <div class="col-sm-12 col-md-6 col-lg-6">
+
+For xs:
+@media(max-width: 575px){
+
+}
+For md:
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+For sm:
+@media (min-width: 768px) and (max-width: 991px){
+
+}        
+For lg:
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+For xl:
+@media (min-width: 1200px){
+
+}

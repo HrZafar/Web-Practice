@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+	<div id="big_wrapper">
+		<header id="top_header">
+                <h1><strong>Calculator</strong></h1>
+                <ul><li><h3><input id="num1" type="text" class="number" placeholder="Enter a Number"/></h3></li>
+                <li><h4><input id="operator" type="text" class="operator" readonly="true"/></h4></li>
+                <li><h3><input id="num2" type="text" class="number" placeholder="Enter a Number"/></h3></li>
+				<h3><input id="res" type="text" class="result" name="result" placeholder="Answer" readonly="true"/></h3></ul>
+		</header>
+        <section id="main_section">
+            <form id="calcForm">
+                    <ul><h3><button id="1" type="button" class="buttons" value="+" onClick="setOperator(this.id)">+</button></h3></ul>
+                    <ul><h3><button id="2" type="button" class="buttons" value="-" onClick="setOperator(this.id)">-</button></h3></ul>
+                    <ul><h3><button id="3" type="button" class="buttons" value="*" onClick="setOperator(this.id)">*</button></h3></ul>
+                    <ul><h3><button id="4" type="button" class="buttons" value="/" onClick="setOperator(this.id)">/</button></h3></ul>
+                    <ul><h3><button id="5" type="button" class="buttons" value="=" onClick="calculate()">=</button></h3></ul>
+            </form>
+        </section>
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+#top_header h1{
+	margin:0px 0px 0px 150px;
+}
+#top_header input[type=text] {
+    border-radius: 6px;
+	color: black;
+    padding: 10px 10px;
+    font:  17px Calibri;
+    text-align: center;
+}
+#top_header li{
+	display:inline-block;
+	list-style:none;
+}
+.number{
+    width: 160px;
+}
+.operator{
+    width: 10px;
+}
+#main_section ul{
+    float:left;
+	display:inline-block;
+	list-style:none;
+}
+.buttons{
+	margin: 0px 0px 0px 0px;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: #99CCFF;
+	padding: 10px 20px;
+	font: 20px Calibri;
+}
+.result{
+    width: 390px;
+}
